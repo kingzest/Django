@@ -1,0 +1,2 @@
+# Django
+ FIRST DJANGO PROJECT

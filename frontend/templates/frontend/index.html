@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+<p>  {% for athlete in athlete_list %}
+    {{ athlete | capfirst }}<br>
+    {% endfor %}
+    Hello {{ name }}! How are you today?<br>
+    You are {{ Age }} Old<br>
+    You are learning {{ Skill }}</p>
+</body>
+</html>
